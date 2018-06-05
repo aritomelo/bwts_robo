@@ -1,0 +1,19 @@
+{
+    "name": "bwts/robo",
+    "license": "",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "consolidation/robo": "~1",
+        "openeuropa/code-review": "^0.2",
+        "phpunit/phpunit": "^5",
+        "henrikbjorn/lurker": "*",
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bwts\\Robo\\": "./src/"
+        }
+    }
+}

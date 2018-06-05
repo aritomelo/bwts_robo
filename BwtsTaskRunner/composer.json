@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "BwtsTaskRunner\\": "./src/"
+    }
+  },
+  "require": {
+    "boedah/robo-drush": "^3.1",
+    "php": "^7"
+  }
+}
